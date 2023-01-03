@@ -1,0 +1,1 @@
+{"mappings":"AAEA,MAAM,UAAU,MAAM,YAAY,CAC9B,MACA;IACI,IAAK;AACT,GACA;AAGJ,MAAM,WAAW","sources":["App.js"],"sourcesContent":["\r\n\r\nconst heading = React.creatElement(\r\n    \"h1\",\r\n    {\r\n        id : \"title\",\r\n    },\r\n    \"Heading\"\r\n);\r\n\r\nconst heading2 = Rea"],"names":[],"version":3,"file":"index.6bd02f5a.js.map","sourceRoot":"/__parcel_source_root/"}

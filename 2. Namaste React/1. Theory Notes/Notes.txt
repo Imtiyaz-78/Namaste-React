@@ -1,0 +1,7 @@
+
+1. tilde (~) or caret(^):-
+    --> ye batata hai ki koun sa version use kar rahe hai major and minor version
+    --> Example:- ^2.8.2 or ~2.8.2
+
+2. How to run React parcel project
+   --> Command:- npx parcel index.html (index.html --> This is entry point of our App)
