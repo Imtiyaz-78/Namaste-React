@@ -10,12 +10,13 @@ const heading1 = React.createElement(
     "Heading 1 From parcel"
 );
 
+
 const heading2 = React.createElement(
     "h1",
     {
         id: "title",
     },
-    "Heading 2"
+    "Heading 2 and Hi Coders"
 );
 
 const container = React.createElement(
@@ -24,7 +25,7 @@ const container = React.createElement(
         id: "container",
         hello: "world",
     },
-    // [heading1, heading2]
+    [heading1, heading2]
 );
 
 console.log(heading1);

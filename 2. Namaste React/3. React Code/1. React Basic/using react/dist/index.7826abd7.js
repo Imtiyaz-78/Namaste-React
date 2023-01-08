@@ -2909,11 +2909,14 @@ const heading1 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
 }, "Heading 1 From parcel");
 const heading2 = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
     id: "title"
-}, "Heading 2");
+}, "Heading 2 and Hi Coders");
 const container = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "container",
     hello: "world"
-});
+}, [
+    heading1,
+    heading2
+]);
 console.log(heading1);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(container);
